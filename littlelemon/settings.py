@@ -76,14 +76,15 @@ WSGI_APPLICATION = 'littlelemon.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.1/ref/settings/#databases
 
+# update db connection configuration values according to your environment
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'littlelemon_sudip',
+        'NAME': 'little_lemon_db_name',
         'HOST' : '127.0.0.1',
         'PORT' : '3306',
-        'USER' : 'root',
-        'PASSWORD' : '',
+        'USER' : 'little_lemon_db_user',
+        'PASSWORD' : 'little_lemon_db_pwd',
     }
 }
 
